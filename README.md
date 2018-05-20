@@ -31,9 +31,72 @@ The following apps are using this library without facing any kind of Bugs.
 
 ------
 
+### Jamun-Camera Preview
+
+Window View | Working Preview
+---- | ----
+![jamun_camera](https://user-images.githubusercontent.com/38988514/40282370-fddb9780-5c8b-11e8-9124-6008eb15dbc1.png) | ![jamun_camera](https://user-images.githubusercontent.com/38988514/40282466-6ede2fb4-5c8d-11e8-958c-4366adc114af.gif)
+
+
+### Gradle Configuration
+
+**Add the dependency**
+
+```java
+dependencies {
+     compile 'tk.jamun:camera:0.0.1'
+}
+```
+### Maven Config
+
+```xml
+<dependency>
+  <groupId>tk.jamun</groupId>
+  <artifactId>camera</artifactId>
+  <version>0.0.1</version>
+  <type>aar</type>
+</dependency>
+```
+------
+### How to Implement
+
+Once the project has been added to gradle, You can use these lines of code to configure pickers....
+
+#### Step 1. Define Intent Object
+
+Simple Object declaration :
+
+```
+Intent intent = new Intent(this, ActivityCamera.class);
+
+```
+#### Step 2. Start Module By Calling
+
+This method is very common to Android Developer, Very easy calling way to Start an activity help you same for calling this Picker :
+
+```
+startActivityForResult(intent, ACTION_REQUEST_CAMERA);
+
+```
+
+#### Step 3. Get Result from Picker
+
+```
+@Override
+public void onActivityResult(int requestCode, int resultCode, Intent data) {
+super.onActivityResult(requestCode, resultCode, data);
+ if (requestCode == ACTION_REQUEST_CAMERA) {
+     if (resultCode == RESULT_OK) {
+       file = new File(data.getStringExtra(RESULT_IMAGE_PATH));
+    }
+  }
+}
+```
+
 # Dependency
 
-* Android Appcompact and Support Fragment Library ``v27.1.1``
+* Android Appcompact Library ``v27.1.1``
+* Google Vision ``15.0.2``
 
 ## Credits
 
