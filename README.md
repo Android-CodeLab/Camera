@@ -8,11 +8,26 @@ Camera library provide you Custom Complete Camera view with full features like F
 
 ### What's New? (0.0.1)
 * Stable **Official Version** for Developers and Live Apps.
-* 
-* Easy Calling Mechanism with **Instant reply** via Listeners and Return Functions
-* 
-* Need less calls with many customs methods to reach maximum developer satisfaction.
-* Already tested with Live apps
+* Tags to Customize Library for Any kind like **Only Barcode** or **Only QR** or **All-in-One**
+* Easy Calling Mechanism with **Instant reply** via onActivityResult.
+* Need less calls with many customs Tags in Intent Object to reach maximum developer satisfaction.
+
+### Why this library?
+
+* This library Competible with all screen sizes and device (Tab with 7' inches and 10'inches).
+* Library support both orientation that is portrait and landscape.
+* Its Calling feature is very simple and easy to use.
+* You don't need to add Multiple libraries and UI components, It have such Components inside that make Quality.
+* Library is Customizable for **Enable Gallery Mode** or **Only Camera Mode** or Any QR/Barcode Related Types.
+* Library Automaticaly Handle Flash, Rotation and Focus mode Availablity that is Device Dependent.
+* Library **doesn't force App Camera Dependent** Feature in Playstore Device Compatible Analogs.
+
+### Quality Measures? for (0.0.1)
+
+The following apps are using this library without facing any kind of Bugs.
+
+* **[SimplyBlood](https://play.google.com/store/apps/details?id=com.simplyblood)**
+* **[ZINI](https://play.google.com/store/apps/details?id=ai.zini)**
 
 ------
 
@@ -29,13 +44,6 @@ Content Writer : **[Achal Garg](https://www.linkedin.com/in/techgarg/)**
  (**[Linkedin](https://www.linkedin.com/in/techgarg/)** & **[Website](https://achal.techcruzers.com)**) 
 
 Company : **[Techcruzers](https://www.techcruzers.com)**
-
-# Live Project using this Library
-
-The following apps are using this library without facing any kind of Bugs.
-
-* **[SimplyBlood](https://play.google.com/store/apps/details?id=com.simplyblood)**
-* **[ZINI](https://play.google.com/store/apps/details?id=ai.zini)**
 
 ## More Library under Jamun 
 
@@ -59,9 +67,6 @@ Library is a set of Custom Classes with UI components for network programming, i
 
 * **[UI](https://github.com/Lib-Jamun/ui.git)**
 library is a set of UI Views, Custom Component and Collection of Helper Classes which help Developer for making quality Product. Such as Camera, Gallery, Number of Pickers, Calendar, Date Pickers, Dialogs and many more Heler UI and Backend Component.
-
-* **[Camera](https://github.com/Lib-Jamun/camera.git)**
-library provide you Custom Complete Camera view with full features like Flash, Rotation, Gallery Picker, Focus, Tap to capture, Confirmation window and last but not least croping feature. It also provide you file path in return so that developer can feel a friendly handy way to Deal After. 
 
 * **[Gallery](https://github.com/Lib-Jamun/gallery.git)**
 have some Beautiful UI Components and Multi files Mode for android Developers to give there app a A Rich look With single and Multi picker Functionality.
