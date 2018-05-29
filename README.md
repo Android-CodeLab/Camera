@@ -44,14 +44,14 @@ Window View | Working Preview
 
 ```java
 dependencies {
-     compile 'tk.jamun:camera:0.0.1'
+     compile 'tk.jamun.ui:camera:0.0.1'
 }
 ```
 ### Maven Config
 
 ```xml
 <dependency>
-  <groupId>tk.jamun</groupId>
+  <groupId>tk.jamun.ui</groupId>
   <artifactId>camera</artifactId>
   <version>0.0.1</version>
   <type>aar</type>
