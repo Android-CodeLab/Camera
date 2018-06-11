@@ -2,15 +2,12 @@
 
 Camera library provide you Custom Complete Camera view with full features like Flash, Rotation, Gallery Picker, Focus, Tap to capture, Confirmation window and last but not least croping feature. It also provide you file path in return so that developer can feel a friendly handy way to Deal After. 
 
-### Introduction
-
-* 
-
 ### What's New? (0.0.1)
 * Stable **Official Version** for Developers and Live Apps.
-* Tags to Customize Library for Any kind like **Only Barcode** or **Only QR** or **All-in-One**
 * Easy Calling Mechanism with **Instant reply** via onActivityResult.
 * Need less calls with many customs Tags in Intent Object to reach maximum developer satisfaction.
+* Compatible With **[Gallery](https://github.com/Lib-Jamun/gallery.git)** Library for More Efficent Working;
+* App with continous face Detaction Feature.
 
 ### Why this library?
 
@@ -18,9 +15,9 @@ Camera library provide you Custom Complete Camera view with full features like F
 * Library support both orientation that is portrait and landscape.
 * Its Calling feature is very simple and easy to use.
 * You don't need to add Multiple libraries and UI components, It have such Components inside that make Quality.
-* Library is Customizable for **Enable Gallery Mode** or **Only Camera Mode** or Any QR/Barcode Related Types.
+* Library is Customizable for **Enable Gallery Mode** or **Only Camera Mode** .
 * Library Automaticaly Handle Flash, Rotation and Focus mode Availablity that is Device Dependent.
-* Library **doesn't force App Camera Dependent** Feature in Playstore Device Compatible Analogs.
+* Library **Doesn't force App Camera Dependent** Feature in Playstore Device Compatible Analogs.
 
 ### Quality Measures? for (0.0.1)
 
@@ -101,7 +98,7 @@ super.onActivityResult(requestCode, resultCode, data);
 ## Credits
 
 Desgin & Developed by : **[Jatin Sahgal](https://www.linkedin.com/in/jatinsahgal/)**
- (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](https://blog.jamun.tk)**) 
+ (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](https://blog.jamun.tk)** & **[Github](https://github.com/Lib-Jamun/Camera)**) 
 
 ## More Library under Jamun 
 
