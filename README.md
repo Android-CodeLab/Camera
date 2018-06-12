@@ -137,11 +137,13 @@ Library is a set of Custom Classes with UI components for network programming, i
 library is a set of UI Views, Custom Component and Collection of Helper Classes which help Developer for making quality Product. Such as Camera, Gallery, Number of Pickers, Calendar, Date Pickers, Dialogs and many more Heler UI and Backend Component.
 
 * **[Gallery](https://github.com/Lib-Jamun/gallery.git)**
-have some Beautiful UI Components and Multi files Mode for android Developers to give there app a A Rich look With single and Multi picker Functionality.
+Library have splendid UI Components with Single and Multi files Selection Mode for android Developers to give there app a A Rich look With with custom picker functionality to cover up maximum media type like Audio, Files (Docs, Text etc) and Images.
 
 * **[Elements](https://github.com/Lib-Jamun/elements.git)**
-Library provide you a custom set of Android Elements that have custom views and properties like CircularImageView or CircularNetworkImageView.
+Library provide you a custom set of Android Elements that have custom views and properties like CircularImageView or CircularNetworkImageView and many more.
 
+* **[Browser](https://github.com/Lib-Jamun/Browser.git)**
+Library provide you two type Single Pager and Multi Pager In-APP Browser Functionality with Event Handling and Functions to Customize Views. It also provide you Copy to clipboard, Open in Browser and share link feature in-Bulit.
 
 ## License
     Copyright (c) 2018 Jatin Sahgal
