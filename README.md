@@ -39,11 +39,24 @@ Window View | Working Preview
 
 **Add the dependency**
 
+Step 1\. Add the jCenter repository to your build file. Add it in your root build.gradle at the end of repositories:
+
+```java
+allprojects {
+  repositories {
+        mavenCentral()
+  }
+}
+```
+
+Step 2\. Add the dependency
+
 ```java
 dependencies {
      compile 'tk.jamun.ui:camera:0.0.1'
 }
 ```
+
 ### Maven Config
 
 ```xml
@@ -125,6 +138,9 @@ library is a set of UI Views, Custom Component and Collection of Helper Classes 
 
 * **[Gallery](https://github.com/Lib-Jamun/gallery.git)**
 have some Beautiful UI Components and Multi files Mode for android Developers to give there app a A Rich look With single and Multi picker Functionality.
+
+* **[Elements](https://github.com/Lib-Jamun/elements.git)**
+Library provide you a custom set of Android Elements that have custom views and properties like CircularImageView or CircularNetworkImageView.
 
 
 ## License
