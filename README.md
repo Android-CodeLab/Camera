@@ -2,7 +2,7 @@
 
 Camera library provide you Custom Complete Camera view with full features like Flash, Rotation, Gallery Picker, Focus, Tap to capture, Confirmation window and last but not least croping feature. It also provide you file path in return so that developer can feel a friendly handy way to Deal After. 
 
-### What's New? (0.0.1)
+### What's New? {Latest Version}
 * Stable **Official Version** for Developers and Live Apps.
 * Easy Calling Mechanism with **Instant reply** via onActivityResult.
 * Need less calls with many customs Tags in Intent Object to reach maximum developer satisfaction.
@@ -19,12 +19,20 @@ Camera library provide you Custom Complete Camera view with full features like F
 * Library Automaticaly Handle Flash, Rotation and Focus mode Availablity that is Device Dependent.
 * Library **Doesn't force App Camera Dependent** Feature in Playstore Device Compatible Analogs.
 
-### Quality Measures? for (0.0.1)
+### Quality Measures? for {Latest Version}
 
 The following apps are using this library without facing any kind of Bugs.
 
 * **[SimplyBlood](https://play.google.com/store/apps/details?id=com.simplyblood)**
-* **[ZINI](https://play.google.com/store/apps/details?id=ai.zini)**
+* **[ZINI](https://play.google.com/store/apps/details?id=ai.zini)**,
+* **[RentalBazar](https://play.google.com/store/apps/details?id=com.rentalbazaar)** 
+* **[DoubtCrusher](https://play.google.com/store/apps/details?id=com.doubtcrusher)**
+* **[BookAGround](https://play.google.com/store/apps/details?id=com.bookaground)**
+* **[PeyFree](https://play.google.com/store/apps/details?id=com.peyfree)**
+* **[ClueRace](https://play.google.com/store/apps/details?id=com.cluerace)**
+* **[CIS-Connect In Single](https://play.google.com/store/apps/details?id=com.connectinsingle)**
+* **[QR/Barcode Scanner](https://play.google.com/store/apps/details?id=com.scanner.android)** 
+* **[Wall-E](https://play.google.com/store/apps/details?id=com.walle.android)**
 
 ------
 
@@ -51,9 +59,22 @@ allprojects {
 
 Step 2\. Add the dependency
 
-```java
+```
+Latest Version : 0.0.8
+
+Android
 dependencies {
-     compile 'tk.jamun.ui:camera:0.0.1'
+     compile 'tk.jamun.ui:camera:{Latest Version}'
+}
+
+AndroidX
+dependencies {
+     compile 'tk.jamunx.ui:camera:{Latest Version}'
+}
+
+Kotlin
+dependencies {
+     compile 'tk.jamun-ktx.ui:camera:{Latest Version}'
 }
 ```
 
@@ -61,9 +82,14 @@ dependencies {
 
 ```xml
 <dependency>
+Android
   <groupId>tk.jamun.ui</groupId>
+AndroidX
+  <groupId>tk.jamunx.ui</groupId>
+Kotlin
+  <groupId>tk.jamun-ktx.ui</groupId>
   <artifactId>camera</artifactId>
-  <version>0.0.1</version>
+  <version>{Latest Version}</version>
   <type>aar</type>
 </dependency>
 ```
@@ -111,7 +137,7 @@ super.onActivityResult(requestCode, resultCode, data);
 ## Credits
 
 Desgin & Developed by : **[Jatin Sahgal](https://www.linkedin.com/in/jatinsahgal/)**
- (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](https://blog.jamun.tk)** & **[Github](https://github.com/Lib-Jamun/Camera)**) 
+ (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](http://androidcodelab.com/)** & **[Github](https://github.com/Lib-Jamun)**) 
 
 ## More Library under Jamun 
 
